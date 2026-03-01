@@ -1,0 +1,9 @@
+{
+  "include_types": ["monolocale", "bilocale", "appartamento", "loft", "casa"],
+  "exclude_room_words": ["stanza", "camera", "posto letto"],
+  "agency_blacklist": ["agenzia", "immobiliare", "provvigione"],
+  "too_rigid_blacklist": ["solo contratto a tempo indeterminato"],
+  "furnished_positive": ["arredato", "ammobiliato"],
+  "condition_positive": ["ristrutturato", "ottimo stato"],
+  "balcony_positive": ["balcone", "terrazzo"]
+}
