@@ -1,0 +1,1 @@
+print("Scraper generico pronto")
