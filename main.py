@@ -500,11 +500,6 @@ def main():
     prefs = load_json(PREFS_PATH, DEFAULT_PREFS)
     kw = load_json(KW_PATH, DEFAULT_KW)
 
-    # In GitHub Actions noi scheduliamo ogni ora, ma inviamo SOLO alle 09/21 locali.
-    if not should_run_now(prefs):
-        print("Not in run window. Exit.")
-        return
-
     db_init()
 
     # 1) URL list (multi-sito)
