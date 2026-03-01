@@ -2,7 +2,10 @@ name: Roma Listings Bot
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    # GitHub Actions usa UTC.
+    # Italia (inverno): 09:00 = 08:00 UTC, 21:00 = 20:00 UTC
+    - cron: "0 8 * * *"
+    - cron: "0 20 * * *"
   workflow_dispatch:
 
 jobs:
