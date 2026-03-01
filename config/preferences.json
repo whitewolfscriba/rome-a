@@ -1,0 +1,10 @@
+{
+  "max_price_default": 900,
+  "max_price_hard": 1000,
+  "max_over_900_per_run": 4,
+  "min_send": 10,
+  "max_send": 20,
+  "max_age_days": 14,
+  "timezone": "Europe/Rome",
+  "run_hours_local": [9, 21]
+}
